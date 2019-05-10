@@ -1,10 +1,10 @@
 # Sierpinsky demo
 from ggame import CircleAsset, Sprite, App, Color, LineStyle
 
-GASKET_SIZE = 256
+GASKET_SIZE = 64
 black = Color(0x000000, 1.0)
 thinline = LineStyle(1, black)
-asset = CircleAsset(0.5, thinline, black)
+asset = CircleAsset(0.25, thinline, black)
 
 # Draw a Sierpinsky Gasket of width and height d,
 # with upper left at (x, y).
