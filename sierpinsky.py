@@ -1,5 +1,5 @@
 # Sierpinsky demo
-from ggame import CircleAsset, Sprite, App, Color, LineAsset
+from ggame import CircleAsset, Sprite, App, Color, LineStyle
 
 GASKET_SIZE = 256
 black = Color(0x000000, 1.0)
