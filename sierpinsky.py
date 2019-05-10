@@ -19,8 +19,6 @@ def draw_sierpinsky(x, y, d):
         # recurse on lower right quadrant
         draw_sierpinsky(x + d/2, y + d/2, d/2)
 
-
-def main():
-    draw_sierpinsky(0, 0, GASKET_SIZE)
+draw_sierpinsky(0, 0, GASKET_SIZE)
 
 App().run()
